@@ -6,17 +6,17 @@ const NavBar = () => {
   return (
     <header>
       <Link to="/">
-        <img src="../img/logo.png" className='imgMarolio' alt="Logo Marolio" />
+        <img src="../img/logoGNR.jpg" className='imgGeek' alt="Logo GEEK N RESIN" />
       </Link>
 
       <nav>
         <ul>
           <li>
-            <NavLink className="miBtn" to="/categoria/2"> Lácteos </NavLink>
+            <NavLink className="miBtn" to="/categoria/2"> Posavasos </NavLink>
           </li>
 
           <li>
-            <NavLink className="miBtn" to="/categoria/3"> Almacén </NavLink>
+            <NavLink className="miBtn" to="/categoria/3"> Otros productos </NavLink>
           </li>
 
         </ul>
